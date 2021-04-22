@@ -13,3 +13,4 @@ If you are having issues compiling here are the project propertys
 Note: if you want to compile for a different platform toolset, you'll need to compile Minhook libraries for the toolset, include the .lib files in /vendors/minhook/lib and then change the Linker Input Additional Dependencies to the lib file for your toolset.
 
 I was only able to complie it in debug x64 mode.
+
