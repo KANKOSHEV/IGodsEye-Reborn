@@ -1,3 +1,6 @@
+OFFSETS.cpp IS NOT THE OFFSETS FILE THE PROGRAM USES IT IS JUST TO HELP YOU UPDATE IT ALL OF THE ACTUALL OFFSETS AND STUFF ARE IN THE GAME FILE
+
+
 This is a exact copy of the orginal IGodsEye repository this is not updated nor will I update it for you.
 
 
