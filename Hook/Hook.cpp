@@ -100,7 +100,7 @@ __int64 __fastcall Hook::G_RunFrame(__int64 a1)
 {
 	__int64 result = Hook::oG_RunFrame(a1);
 
-	// TODO
+
 	
 	return result;
 }
@@ -108,14 +108,14 @@ __int64 __fastcall Hook::G_RunFrame(__int64 a1)
 __int64 __fastcall Hook::Cmd_ExecuteSingleCommand(__int64 text)
 {
 	__int64 result = Hook::oCmd_ExecuteSingleCommand(text);
-	// std::cout << std::hex << result << " = Cmd_ExecuteSingleCommand(" << text << ");" << std::endl;
+	
 	return result;
 }
 
 void* __fastcall Hook::Dvar_FindMalleableVar(__int64 dvarName)
 {
 	void* result = Hook::oDvar_FindMalleableVar(dvarName);
-	// std::cout << std::hex << result << " = Dvar_FindMalleableVar(" << dvarName << ");" << std::endl;
+	
 	return result;
 }
 
